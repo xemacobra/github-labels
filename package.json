@@ -1,6 +1,6 @@
 {
   "name": "github-labels",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Add github labels automatically",
   "dependencies": {
     "co": "^4.6.0",
@@ -15,8 +15,8 @@
   "scripts": {
     "test": "eslint ."
   },
-  "repository": "git@github.com:popomore/github-labels.git",
-  "author": "popomore <sakura9515@gmail.com>",
+  "repository": "git@github.com:xemacobra/github-labels.git",
+  "author": "xemacobra <ehab@hamtaw.com>",
   "bin": {
     "labels": "./bin/labels"
   },
