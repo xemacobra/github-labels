@@ -7,10 +7,10 @@ const auth = require('./lib/auth');
 const label = require('./lib/label');
 const color = require('./lib/colors.json');
 const dotfile = getDotFile();
-const GitHubApi = require('github');
+const octokit = require('@octokit/rest');
 
 module.exports = program => {
-  const github = new GitHubApi({
+  const github = new octokit({
     version: '3.0.0',
     protocol: 'https',
     pathPrefix: program.pathPrefix,
