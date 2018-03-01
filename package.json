@@ -4,7 +4,7 @@
   "description": "Add github labels automatically",
   "dependencies": {
     "co": "^4.6.0",
-    "commander": "^2.9.0",
+    "commander": "^2.14.1",
     "github": "^13.1.0",
     "github-oauth-prompt": "~1.1.0"
   },
