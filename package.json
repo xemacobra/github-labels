@@ -5,7 +5,7 @@
   "dependencies": {
     "co": "^4.6.0",
     "commander": "^2.14.1",
-    "github": "^13.1.0",
+    "@octokit/rest": "^14.0.9",
     "github-oauth-prompt": "~1.1.0"
   },
   "devDependencies": {
